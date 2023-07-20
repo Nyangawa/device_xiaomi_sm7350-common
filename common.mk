@@ -293,6 +293,7 @@ ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
+endif
 
 # Media
 PRODUCT_PACKAGES += \
